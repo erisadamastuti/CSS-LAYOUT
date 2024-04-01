@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 800px; 
+    }
+
+    .item {
+      width: 200px; 
+      height: 200px; 
+      background-color: #ddd; 
+      margin: 10px; 
+    }
+
+    .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="item"><img src="gambar1.jpg" alt="gambar1"></div>
+    <div class="item"><img src="gambar2.jpg" alt="gambar2"></div>
+    <div class="item"><img src="gambar 3.jpg" alt="gambar3"></div>
+    <div class="item"><img src="gambar4.jpg" alt="gambar4"></div>
+    <div class="item"><img src="gambar5.jpg" alt="gambar5"></div>
+    <div class="item"><img src="gambar6.jpg" alt="gambar6"></div>
+    <div class="item"><img src="gambar7.jpg" alt="gambar7"></div>
+    <div class="item"><img src="gambar8.jpg" alt="gambar8"></div>
+    <div class="item"><img src="gambar9.jpg" alt="gambar9"></div>
+    <div class="item"><img src="gambar10.jpg" alt="gambar10"></div>
+    <div class="item"><img src="gambar11.jpg" alt="gambar11"></div>
+    <div class="item"><img src="gambar12.jpg" alt="gambar12"></div>
+    <div class="item"><img src="gambar13.jpg" alt="gambar13"></div>
+    <div class="item"><img src="gambar14.jpg" alt="gambar14"></div>
+    <div class="item"><img src="gambar15.jpg" alt="gambar15"></div>
+    <div class="item"><img src="gambar16.jpg" alt="gambar16"></div>
+    <div class="item"><img src="gambar17.jpg" alt="gambar17"></div>
+    <div class="item"><img src="gambar18.jpg" alt="gambar18"></div>
+  </div>
+</body>
+</html>
